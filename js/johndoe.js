@@ -148,8 +148,3 @@ function initMap() {
       ]
     });
 }
-// Verificar si la página se cargó desde la caché del navegador
-if (performance.navigation.type === 1) {
-  // Forzar una recarga de la página
-  location.reload(true);
-}
